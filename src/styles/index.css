@@ -10,3 +10,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+h1 {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
+    color: rgb(245, 210, 157);
+}
+
+.list {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(90, 89, 87);
+    padding-left: 50px !important;
+}
+.list-group-item {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(90, 89, 87);
+    padding-left: 50px;
+}
+
+.contador {
+    font-family:"Ojuju", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(184, 182, 178);
+    padding-left: 0% !important ;
+}
