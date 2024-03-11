@@ -11,6 +11,10 @@
 
 */
 
+body {
+    background: rgb(246, 246, 239);
+}
+
 h1 {
     font-family: "Ojuju", sans-serif;
     font-optical-sizing: auto;
@@ -23,6 +27,12 @@ h1 {
 .blog {
     box-shadow: 
     0 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ffffff;
+    border-bottom-style: double;
+    border-bottom-width: 10px;
+    border-color: #ccc #000;
+    
 }
 
 .list {
