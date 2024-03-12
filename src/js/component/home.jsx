@@ -36,7 +36,7 @@ const Home = () => {
 					
 			<ul className="list-group list-group-flush">
 					{tasks.map((task,index) => { return (<li className="list-group-item py-3 ms-3" key={index}> {task}   
-						<span className="delete hidden" onClick={() => deletetask(index)}> <i className="fa-solid fa-xmark" ></i></span></li>)
+						<span className="delete" onClick={() => deletetask(index)}><i className="fa-solid fa-xmark"></i></span></li>)
 					}
 					)}	
 			</ul>

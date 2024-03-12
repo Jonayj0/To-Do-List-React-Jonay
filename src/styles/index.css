@@ -65,24 +65,27 @@ h1 {
     padding-left: 0% !important ;
 }
 
-.delete:hover {
-    color: rgb(222, 8, 8);
-    cursor: pointer;
+.fa-xmark:hover {
+    color: red;
+    transform: scale(1.2);
 }
 
-.delete {
+.list-group-item .delete {
+    color: white;
+}
+  
+.list-group-item:hover .delete {
+    color: rgb(245, 173, 173);
+  } 
+
+
+ /* Poniendo estas clases .delete no me funciona el hover por eso tuve que citar al icono directa,ente arriba///
+  /* .delete:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+} */
+
+/* .delete {
     color: rgb(248, 195, 195);
     cursor: pointer;
-}
-
-/* .list-group-item .delete {
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out;
-  }
-  
-  .list-group-item .delete:hover {
-    color: rgb(222, 8, 8);
-    cursor: pointer;
-    opacity: 1;
-  } */
-
+} */
